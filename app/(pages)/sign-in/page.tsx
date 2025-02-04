@@ -1,5 +1,5 @@
 'use client'
-
+'@typescript-eslint/no-explicit-any'
 import { SignInFormData, signInSchema } from "@/app/validators/signInSchema"
 import { axiosInstance } from "@/lib/axiosInstance"
 import { yupResolver } from "@hookform/resolvers/yup"

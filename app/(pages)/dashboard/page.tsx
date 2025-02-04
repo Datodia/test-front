@@ -1,7 +1,6 @@
 'use client'
-
+'react-hooks/exhaustive-deps'
 import { axiosInstance } from "@/lib/axiosInstance"
-import axios from "axios"
 import { getCookie } from "cookies-next/client"
 import { useRouter } from "next/navigation"
 import { useEffect, useState } from "react"
